@@ -52,7 +52,7 @@ export class Todo extends Component{
                     <li onClick={this.crossedWord}
                         key={index}>
                        {item}
-                       <img className="timerimg" src={icon} width="40px"/>
+                       <img className="timerimg" src={icon} width="40px" alt="icon"/>
                         </li>))}
                 </ul>
             </div>
